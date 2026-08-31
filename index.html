@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Amber Ying">
+    <title>Contact Exchange: amberying.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container align-items-center justify-content-center my-5 py-5 w-75">
+        <h1 class="p-small-3">Contact Exchange with Amber Ying</h1>
+        <p id="subtitle" class="p-md-3">Nice to meet you! Let's exchange contact information.</p>
+        
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="url">URL</label>
+                <input type="url" id="url" name="url">
+            </div>
+
+            <div class="form-group">
+                <label for="linkedin">LinkedIn</label>
+                <input type="linkedin" id="linkedin" name="linkedin">
+            </div>
+
+            <div class="form-group">
+                <label for="howWeMet">How We Met *</label>
+                <textarea id="howWeMet" name="howWeMet" required placeholder="Tell me how we met..."></textarea>
+            </div>
+            
+            <button type="submit" id="submitBtn">Send Information</button>
+        </form>
+        
+        <div class="status-message" id="statusMessage"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

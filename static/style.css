@@ -1,0 +1,51 @@
+body {
+	background: #C5F7EF;
+	background: linear-gradient(90deg, rgba(197, 247, 239, 1) 0%, rgba(0, 153, 127, 1) 100%);
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body > .container {
+	background: #FFF;
+	border-radius: 32px;
+	border: 3px solid #084037;
+	text-align: center;
+	color: #084037;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+#subtitle {
+	font-size: 1.2rem;
+}
+
+div.form-group {
+	width: 99%;
+	padding: 1.2rem 0;
+	text-align: left;
+}
+
+div.form-group > input, div.form-group > textarea, div.form-group > label {
+	display: block;
+	margin: 0 auto;
+	text-align: left;
+	width: 50%;
+	padding: 5px;
+}
+
+input:focus, textarea:focus {
+	border: 2px solid #084037;
+	box-shadow: 0 0 4px rgba(25, 148, 128, 0.5);
+	outline: none;
+}
+
+#submitBtn { 
+	margin-top: 10px;
+	padding: 10px;
+	border: 2px solid #084037;
+	border-radius: 10px;
+	background: linear-gradient(90deg, rgba(197, 247, 239, 1) 0%, rgba(0, 153, 127, 1) 100%);
+	color: #FFF;
+	font-size: 1.2rem;
+}
