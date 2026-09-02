@@ -49,3 +49,11 @@ input:focus, textarea:focus {
 	color: #FFF;
 	font-size: 1.2rem;
 }
+
+.error {
+	color: red;
+}
+
+.success {
+	color: green;
+}
